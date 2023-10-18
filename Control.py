@@ -27,10 +27,10 @@ def get_dataloaders():
     transform = get_transforms()
 
     train_dataset = torchvision.datasets.CIFAR10(
-        root="./control", train=True, transform=transform, download=True
+        root="./data", train=True, transform=transform, download=True
     )
     test_dataset = torchvision.datasets.CIFAR10(
-        root="./control", train=False, transform=transforms.ToTensor()
+        root="./data", train=False, transform=transforms.ToTensor()
     )
 
     train_loader = torch.utils.data.DataLoader(

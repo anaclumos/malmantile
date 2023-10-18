@@ -39,7 +39,7 @@ def create_transform(quadrant):
 
 def load_dataset(transform, train=True):
     return torchvision.datasets.CIFAR10(
-        root="./control", train=train, download=True, transform=transform
+        root="./data", train=train, download=True, transform=transform
     )
 
 
@@ -277,7 +277,7 @@ if __name__ == "__main__":
     show_example_image(trainloader_tl, trainloader_tr, trainloader_bl, trainloader_br)
 
     testset = torchvision.datasets.CIFAR10(
-        root="./control", train=False, download=True, transform=transform
+        root="./data", train=False, download=True, transform=transform
     )
     test_loader = torch.utils.data.DataLoader(testset, batch_size=64, shuffle=False)
 
