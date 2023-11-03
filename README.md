@@ -9,4 +9,4 @@ ING
 
 ## Further Actions
 
-Superseded by [anaclumos/malmantile](https://github.com/anaclumos/malmantile)
+Superseded by [anaclumos/impruneta](https://github.com/anaclumos/impruneta)
