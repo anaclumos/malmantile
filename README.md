@@ -5,7 +5,7 @@ Supersedes [anaclumos/fiesole](https://github.com/anaclumos/fiesole)
 
 ## Status
 
-ING
+✅ SUCCESS
 
 ## Further Actions
 
